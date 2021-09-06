@@ -1,0 +1,94 @@
+.wrap {
+    display: flex;
+    background-color: #c4c4c4;
+}
+
+#main {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-item {
+    max-width: 1900px;
+}
+
+.main_photo {
+    height: auto;
+    max-height: 970px;
+}
+
+.inText {
+    position: absolute;
+    color: white;
+}
+
+#history_box {
+    align-items: center;
+    margin: 3%;
+}
+
+#history_txt {
+    margin: 20px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#history_txt p {
+    font-size: 15px;
+}
+
+#yeoul_info {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+#info_txt  h1 {
+    text-align: center;
+}
+
+#info_txt {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    margin: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .single-item {
+        max-width: 330px;
+        max-height: 320px;
+    }
+
+    .main_photo {
+        width: auto;
+        height: auto;
+        max-width: 340px;
+        max-height: 320px;
+    }
+
+    #history_txt {
+        margin: 20px;
+    }
+
+    #info_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    iframe {
+        width: 310px;
+        height: 240px;
+    }
+}
