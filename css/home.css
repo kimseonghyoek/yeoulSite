@@ -8,12 +8,17 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    width: 1000px;;
 }
 
 .single-item {
-    max-width: 1900px;
+    max-width: 150%;
+    height: auto;
 }
 
+.slick-list {
+    max-height: 850px;
+}
 .main_photo {
     height: auto;
     max-height: 970px;
