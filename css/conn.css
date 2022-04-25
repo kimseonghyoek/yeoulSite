@@ -1,0 +1,26 @@
+li .yeoulLink {
+  color: #000000;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#connMain {
+  display: flex;
+  flex-direction: row;
+  margin: 130px;
+  justify-content: center;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  justify-content: center;
+}
