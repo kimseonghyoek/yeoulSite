@@ -1,0 +1,10 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 280px !important;
+  text-align: center;
+}
