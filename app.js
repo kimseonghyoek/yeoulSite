@@ -16,7 +16,7 @@ app.use("/", express.static(__dirname + "/img"))
 
 app.get('', homeRouter)
 
-app.set('port', process.env.PORT || 8082);
+app.set('port', process.env.PORT || 80);
 
 app.listen(app.get("port"), () => {
   console.log(`http://127.0.0.1:${app.get('port')}`);
