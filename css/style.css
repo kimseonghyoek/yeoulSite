@@ -19,6 +19,7 @@ a {
     align-items: center;
     background-color: rgb(53, 53, 53);
     padding: 8px 12px;
+    z-index: 100;
 }
 
 .navbar_logo {

@@ -18,3 +18,13 @@
     border-radius: 25px;
     background-color: #A4C639;
 }
+
+.navbar {
+    position: relative;
+    z-index: 5;
+}
+
+#fullpage {
+    position: fixed !important;
+    z-index: 3
+}

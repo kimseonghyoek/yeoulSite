@@ -98,7 +98,7 @@ html.fp-enabled,
     transition: none !important;
 }
 #fp-nav {
-    position: fixed;
+    position: relative;
     z-index: 100;
     top: 50%;
     opacity: 1;
