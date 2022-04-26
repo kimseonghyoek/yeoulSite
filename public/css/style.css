@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+@font-face {
+    font-family: "Sunflower-Medium";
+    src: url('../font/Sunflower-Medium.ttf') format('truetype');
+  }
 
 *{
-    font-family: 'Sunflower', sans-serif;
+    font-family: 'Sunflower-Medium', sans-serif;
 }
 
 body {

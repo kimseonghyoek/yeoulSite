@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Sunflower-Medium";
+    src: url('../font/Sunflower-Medium.ttf') format('truetype');
+}
+
+* {
+    font-family: "Sunflower-Medium";
+}
+
 .wrap {
     display: flex;
     align-items: center;
