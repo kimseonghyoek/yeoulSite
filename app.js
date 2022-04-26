@@ -19,6 +19,5 @@ app.get('', homeRouter)
 app.set('port', process.env.PORT || 8082);
 
 app.listen(app.get("port"), () => {
-  console.log("8082번 포트에서 활동");
   console.log(`http://127.0.0.1:${app.get('port')}`);
 })
